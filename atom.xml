@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[AppleScript ガイド]]></title>
+  <link href="http://AppleScript-Guide.github.io//github/atom.xml" rel="self"/>
+  <link href="http://AppleScript-Guide.github.io//github/"/>
+  <updated>2013-09-13T11:00:03+09:00</updated>
+  <id>http://AppleScript-Guide.github.io//github/</id>
+  <author>
+    <name><![CDATA[veadar]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[first-page]]></title>
+    <link href="http://AppleScript-Guide.github.io//github/blog/2013/09/13/first-page/"/>
+    <updated>2013-09-13T10:59:00+09:00</updated>
+    <id>http://AppleScript-Guide.github.io//github/blog/2013/09/13/first-page</id>
+    <content type="html"><![CDATA[<p>test</p>
+]]></content>
+  </entry>
+  
+</feed>
