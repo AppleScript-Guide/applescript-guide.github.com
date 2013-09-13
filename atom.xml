@@ -4,7 +4,7 @@
   <title><![CDATA[AppleScript ガイド]]></title>
   <link href="http://AppleScript-Guide.github.io/atom.xml" rel="self"/>
   <link href="http://AppleScript-Guide.github.io/"/>
-  <updated>2013-09-13T20:43:17+09:00</updated>
+  <updated>2013-09-13T20:47:45+09:00</updated>
   <id>http://AppleScript-Guide.github.io/</id>
   <author>
     <name><![CDATA[veadar]]></name>
@@ -24,24 +24,6 @@
     beep
 end tell
 </code></pre>
-
-<div class="sourceCode">
-<div>
-<span class="uncompiled">tell application &quot;iTunes&quot; </span>
-</div>
-<div>
-<span class="uncompiled">beep </span>
-</div>
-<div>
-<span class="uncompiled">end tell</span>
-</div>
-    <div class="scriptButton">
-        <input type="button" value="edit" onclick="document.location = this.src" src="applescript://com.apple.scripteditor?action=new&amp;script=tell%20application%20%22iTunes%22%20%0Abeep%20%0Aend%20tell" />
-    </div>
-</div>
-
-
-
 
 <div><script src='https://gist.github.com/6549223.js'></script>
 <noscript><pre><code></code></pre></noscript></div>
