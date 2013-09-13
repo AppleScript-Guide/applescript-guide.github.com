@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://AppleScript-Guide.github.io//github/blog/2013/09/13/first-page/</loc>
+        <loc>http://AppleScript-Guide.github.io/blog/2013/09/13/first-page/</loc>
         <lastmod>2013-09-13T10:59:53+09:00</lastmod>
     </url>
     <url>
-        <loc>http://AppleScript-Guide.github.io//github/blog/archives/</loc>
+        <loc>http://AppleScript-Guide.github.io/blog/archives/</loc>
         <lastmod>2013-09-13T10:59:53+09:00</lastmod>
     </url>
     <url>
-        <loc>http://AppleScript-Guide.github.io//github/</loc>
+        <loc>http://AppleScript-Guide.github.io/</loc>
         <lastmod>2013-09-13T10:59:53+09:00</lastmod>
     </url>
     <url>
-        <loc>http://AppleScript-Guide.github.io//github/robots.txt</loc>
+        <loc>http://AppleScript-Guide.github.io/robots.txt</loc>
         <lastmod>2013-09-13T10:59:00+09:00</lastmod>
     </url>
 </urlset>
