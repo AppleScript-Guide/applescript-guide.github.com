@@ -4,7 +4,7 @@
   <title><![CDATA[AppleScript ガイド]]></title>
   <link href="http://AppleScript-Guide.github.io/atom.xml" rel="self"/>
   <link href="http://AppleScript-Guide.github.io/"/>
-  <updated>2013-09-14T17:48:04+09:00</updated>
+  <updated>2013-09-14T17:49:46+09:00</updated>
   <id>http://AppleScript-Guide.github.io/</id>
   <author>
     <name><![CDATA[veadar]]></name>
@@ -65,7 +65,7 @@ end tell</span></code></pre></td></tr></table></div></figure>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[このサイトを読めば、どのようなアプリが作れるようになるのか]]></title>
+    <title type="html"><![CDATA[どのようなアプリが作れるようになるのか]]></title>
     <link href="http://AppleScript-Guide.github.io/blog/2013/09/13/completion-drawing/"/>
     <updated>2013-09-13T10:59:00+09:00</updated>
     <id>http://AppleScript-Guide.github.io/blog/2013/09/13/completion-drawing</id>
