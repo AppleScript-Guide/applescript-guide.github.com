@@ -4,7 +4,7 @@
   <title><![CDATA[AppleScript ガイド]]></title>
   <link href="http://AppleScript-Guide.github.io/atom.xml" rel="self"/>
   <link href="http://AppleScript-Guide.github.io/"/>
-  <updated>2013-09-14T06:54:41+09:00</updated>
+  <updated>2013-09-14T14:22:55+09:00</updated>
   <id>http://AppleScript-Guide.github.io/</id>
   <author>
     <name><![CDATA[veadar]]></name>
@@ -25,7 +25,7 @@
 end tell
 </code></pre>
 
-<div><script src='https://gist.github.com/6549223.js'></script>
+<div><script src='https://gist.github.com/4322180.js'></script>
 <noscript><pre><code></code></pre></noscript></div>
 
 
@@ -53,6 +53,14 @@ end tell
     </div>
 </div>
 
+
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>tell application "iTunes"
+    beep
+end tell</span></code></pre></td></tr></table></div></figure>
+
 ]]></content>
   </entry>
   
@@ -63,10 +71,28 @@ end tell
     <id>http://AppleScript-Guide.github.io/blog/2013/09/13/first-page</id>
     <content type="html"><![CDATA[<p>Here is an example of AppleScript:</p>
 
-<pre><code>tell application "Foo"
+<pre><code>tell application "iTunes"
     beep
 end tell
 </code></pre>
+
+<div style="position : relative;font-family: sans-serif;margin-right: 2em;margin-left: 2em;padding: 1ex;border: solid 2px silver;">
+<div>
+<span style="font-family:Verdana-Bold;color:#000000">tell</span> <span style="font-family:Verdana-Italic;color:#0000FF">application</span><span style="font-family:Verdana;color:#000000"> &quot;iTunes&quot;</span>
+</div>
+<div style="text-indent:4ex;">
+<span style="font-family:Verdana-Bold;color:#0016A0">beep</span>
+</div>
+<div>
+<span style="font-family:Verdana-Bold;color:#000000">end</span> <span style="font-family:Verdana-Bold;color:#000000">tell</span>
+</div>
+    <div style="position: absolute; bottom : 0.5em; right: 1em; text-align: right;">
+        <input type="button" value="Script in Clipboard" onclick="document.location = this.src" src="applescript://com.apple.scripteditor?action=new&amp;script=tell%20application%20%22iTunes%22%0D%20%20%20%20beep%0Dend%20tell" />
+    </div>
+</div>
+
+
+
 ]]></content>
   </entry>
   
