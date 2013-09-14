@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 準備編 | AppleScript ガイド]]></title>
   <link href="http://AppleScript-Guide.github.io/blog/categories/zhun-bei-bian/atom.xml" rel="self"/>
   <link href="http://AppleScript-Guide.github.io/"/>
-  <updated>2013-09-14T17:41:26+09:00</updated>
+  <updated>2013-09-14T17:48:04+09:00</updated>
   <id>http://AppleScript-Guide.github.io/</id>
   <author>
     <name><![CDATA[veadar]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[second page]]></title>
-    <link href="http://AppleScript-Guide.github.io/blog/2013/09/13/second-page/"/>
+    <title type="html"><![CDATA[もっとも簡単なプログラミング言語。それがAppleScript！]]></title>
+    <link href="http://AppleScript-Guide.github.io/blog/2013/09/13/easiest-programming-language/"/>
     <updated>2013-09-13T11:53:00+09:00</updated>
-    <id>http://AppleScript-Guide.github.io/blog/2013/09/13/second-page</id>
+    <id>http://AppleScript-Guide.github.io/blog/2013/09/13/easiest-programming-language</id>
     <content type="html"><![CDATA[<p>Here is an example of AppleScript:</p>
 
 <pre><code>tell application "iTunes"
