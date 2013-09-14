@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 準備編 | AppleScript ガイド]]></title>
   <link href="http://AppleScript-Guide.github.io/blog/categories/zhun-bei-bian/atom.xml" rel="self"/>
   <link href="http://AppleScript-Guide.github.io/"/>
-  <updated>2013-09-14T17:39:40+09:00</updated>
+  <updated>2013-09-14T17:41:26+09:00</updated>
   <id>http://AppleScript-Guide.github.io/</id>
   <author>
     <name><![CDATA[veadar]]></name>
@@ -12,6 +12,53 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[second page]]></title>
+    <link href="http://AppleScript-Guide.github.io/blog/2013/09/13/second-page/"/>
+    <updated>2013-09-13T11:53:00+09:00</updated>
+    <id>http://AppleScript-Guide.github.io/blog/2013/09/13/second-page</id>
+    <content type="html"><![CDATA[<p>Here is an example of AppleScript:</p>
+
+<pre><code>tell application "iTunes"
+    beep
+end tell
+</code></pre>
+
+<p><div><script src='https://gist.github.com/4322180.js'></script>
+<noscript><pre><code></code></pre></noscript></div>
+</p>
+
+<div class="sourceCode">
+<div>
+<span class="langKeyword">tell</span> <span class="className">application</span><span class="normal"> &quot;iTunes&quot;</span>
+</div>
+<div style="text-indent:4ex;">
+<span class="additionCommandName">beep</span>
+</div>
+<div>
+<span class="langKeyword">end</span> <span class="langKeyword">tell</span>
+</div>
+<br />
+<div>
+<span class="langKeyword">on</span> <span class="userDefine">deftest</span><span class="normal">()</span>
+</div>
+<div>
+<span class="langKeyword">end</span> <span class="userDefine">deftest</span>
+</div>
+    <div class="scriptButton">
+        <input type="button" value="edit" onclick="document.location = this.src" src="applescript://com.apple.scripteditor?action=new&amp;script=tell%20application%20%22iTunes%22%0D%09beep%0Dend%20tell%0D%0Don%20deftest()%0Dend%20deftest" />
+    </div>
+</div>
+
+
+<p><code>
+tell application "iTunes"
+	beep
+end tell
+</code></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[このサイトを読めば、どのようなアプリが作れるようになるのか]]></title>
