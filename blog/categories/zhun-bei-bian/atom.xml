@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 準備編 | AppleScript ガイド]]></title>
   <link href="http://AppleScript-Guide.github.io/blog/categories/zhun-bei-bian/atom.xml" rel="self"/>
   <link href="http://AppleScript-Guide.github.io/"/>
-  <updated>2013-09-23T11:34:25+09:00</updated>
+  <updated>2013-09-23T11:43:10+09:00</updated>
   <id>http://AppleScript-Guide.github.io/</id>
   <author>
     <name><![CDATA[veadar]]></name>
@@ -18,45 +18,19 @@
     <link href="http://AppleScript-Guide.github.io/blog/2013/09/13/easiest-programming-language/"/>
     <updated>2013-09-13T11:53:00+09:00</updated>
     <id>http://AppleScript-Guide.github.io/blog/2013/09/13/easiest-programming-language</id>
-    <content type="html"><![CDATA[<p>Here is an example of AppleScript:</p>
+    <content type="html"><![CDATA[<p>AppleScriptとは普段使っている自然な英語と同じような文法で書けるスクリプト言語です。</p>
 
-<pre><code>tell application "iTunes"
-    beep
-end tell
-</code></pre>
+<p>GUIパーツの呼び出しまで、ここまで簡潔なコードで済むのは他に類を見ないと思います。</p>
 
-<p><div><script src='https://gist.github.com/4322180.js'></script>
-<noscript><pre><code></code></pre></noscript></div>
-</p>
+<p>まず以下のコードをごらんください。</p>
 
 <div class="sourceCode">
-<div>
-<span class="langKeyword">tell</span> <span class="className">application</span><span class="normal"> &quot;iTunes&quot;</span>
-</div>
-<div style="text-indent:4ex;">
-<span class="additionCommandName">beep</span>
-</div>
-<div>
-<span class="langKeyword">end</span> <span class="langKeyword">tell</span>
-</div>
-<br />
-<div>
-<span class="langKeyword">on</span> <span class="userDefine">deftest</span><span class="normal">()</span>
-</div>
-<div>
-<span class="langKeyword">end</span> <span class="userDefine">deftest</span>
-</div>
+<span class="additionCommandName">display dialog</span><span class="normal"> &quot;</span><span class="normal">こんちにわ！世界</span><span class="normal">&quot;</span>
     <div class="scriptButton">
-        <input type="button" value="edit" onclick="document.location = this.src" src="applescript://com.apple.scripteditor?action=new&amp;script=tell%20application%20%22iTunes%22%0D%09beep%0Dend%20tell%0D%0Don%20deftest()%0Dend%20deftest" />
+        <input type="button" value="edit" onclick="document.location = this.src" src="applescript://com.apple.scripteditor?action=new&amp;script=display%20dialog%20%22%E3%81%93%E3%82%93%E3%81%A1%E3%81%AB%E3%82%8F%EF%BC%81%E4%B8%96%E7%95%8C%22" />
     </div>
 </div>
 
-
-<p><code>
-tell application "iTunes"
-	beep
-end tell
-</code></p>
 ]]></content>
   </entry>
   
@@ -97,6 +71,8 @@ end tell
 
 <p>用意したリストの中から、一つもしくは複数の項目を選択できるアプリです。</p>
 
+<p>テキストを入力できる形式のアプリと比べてユーザからの入力で予想外の値が返ってくる心配がないのでエラー処理を省けます。</p>
+
 <h2>コンテキストメニュー形式のアプリ</h2>
 
 <p>リストから選択させる形式のアプリの応用。</p>
@@ -106,6 +82,8 @@ end tell
 <h2>メニューバー形式のアプリ</h2>
 
 <p>メニューバーにアイコンやテキストを表示させるアプリ。</p>
+
+<p>常時情報を表示させたい場合にメニューバーならば普段の操作の邪魔になりません。</p>
 
 <p>メニューバーアイコンをクリックするとコンテキストメニューが表示されます。</p>
 
