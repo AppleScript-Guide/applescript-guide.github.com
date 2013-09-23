@@ -4,7 +4,7 @@
   <title><![CDATA[AppleScript ガイド]]></title>
   <link href="http://AppleScript-Guide.github.io/atom.xml" rel="self"/>
   <link href="http://AppleScript-Guide.github.io/"/>
-  <updated>2013-09-14T17:49:46+09:00</updated>
+  <updated>2013-09-23T11:34:25+09:00</updated>
   <id>http://AppleScript-Guide.github.io/</id>
   <author>
     <name><![CDATA[veadar]]></name>
@@ -69,30 +69,59 @@ end tell</span></code></pre></td></tr></table></div></figure>
     <link href="http://AppleScript-Guide.github.io/blog/2013/09/13/completion-drawing/"/>
     <updated>2013-09-13T10:59:00+09:00</updated>
     <id>http://AppleScript-Guide.github.io/blog/2013/09/13/completion-drawing</id>
-    <content type="html"><![CDATA[<p>Here is an example of AppleScript:</p>
+    <content type="html"><![CDATA[<p>まずはこのサイトを見て勉強すると、どのような見た目のアプリを作れるようになるのかスクリーンショット付きで紹介したいと思います。</p>
 
-<pre><code>tell application "iTunes"
-    beep
-end tell
-</code></pre>
+<p>この記事で今後の全体像を掴んでいただき、興味をもっていただければ幸いです。</p>
 
-<div style="position : relative;font-family: sans-serif;margin-right: 2em;margin-left: 2em;padding: 1ex;border: solid 2px silver;">
-<div>
-<span style="font-family:Verdana-Bold;color:#000000">tell</span> <span style="font-family:Verdana-Italic;color:#0000FF">application</span><span style="font-family:Verdana;color:#000000"> &quot;iTunes&quot;</span>
-</div>
-<div style="text-indent:4ex;">
-<span style="font-family:Verdana-Bold;color:#0016A0">beep</span>
-</div>
-<div>
-<span style="font-family:Verdana-Bold;color:#000000">end</span> <span style="font-family:Verdana-Bold;color:#000000">tell</span>
-</div>
-    <div style="position: absolute; bottom : 0.5em; right: 1em; text-align: right;">
-        <input type="button" value="Script in Clipboard" onclick="document.location = this.src" src="applescript://com.apple.scripteditor?action=new&amp;script=tell%20application%20%22iTunes%22%0D%20%20%20%20beep%0Dend%20tell" />
-    </div>
-</div>
+<p>なお、よりカスタマイズ性に富んだアプリを作るにはXcode + Objective-Cの知識が必要ですが、このサイトではその説明はしません(なぜなら筆者も勉強中だからです)。</p>
 
+<h2>ダイアログ形式のアプリ</h2>
 
+<p>テキストを表示させるだけ。</p>
 
+<p>基本中の基本です。</p>
+
+<p>コードも短く、プログラミングの知識がなくても数分で理解し自分でカスタマイズできるようになると思います。</p>
+
+<h2>ボタン形式のアプリ</h2>
+
+<p>ダイアログ形式のアプリの応用です。</p>
+
+<p>ボタンは三つまで。</p>
+
+<p>選択肢から選ばせたり、これからする処理への許可を求める時などに常用します。</p>
+
+<h2>テキストを入力できる形式のアプリ</h2>
+
+<p>自由にテキストを入力して、AppleScriptへ引き渡すことができます。</p>
+
+<p>複数行に渡ってテキストを入力することもできるので、ちょっとしたテキストエディタのように使うことも可能。</p>
+
+<h2>リストから選択させる形式のアプリ</h2>
+
+<p>用意したリストの中から、一つもしくは複数の項目を選択できるアプリです。</p>
+
+<h2>コンテキストメニュー形式のアプリ</h2>
+
+<p>リストから選択させる形式のアプリの応用。</p>
+
+<p>選択した後にAppleScriptに返す値も変更できる。</p>
+
+<h2>メニューバー形式のアプリ</h2>
+
+<p>メニューバーにアイコンやテキストを表示させるアプリ。</p>
+
+<p>メニューバーアイコンをクリックするとコンテキストメニューが表示されます。</p>
+
+<h2>WebView形式のアプリ</h2>
+
+<p>Webブラウザのようにウィンドウ内にHTMLやサイトを表示させるアプリ。</p>
+
+<p>ここまで来ると縦横無尽にGUIパーツを配置して操作できるようになり、AppleScriptっぼさが抜け、独立したアプリという印象が強くなります。</p>
+
+<h2>独自のインターフェイスを持たないアプリ</h2>
+
+<p>他のスクリプト言語のスクリプトを実行するアプリや、テキストを整形してクリップボードに返すアプリなど、独自のインターフェイスを持たない方が便利な物もあります。</p>
 ]]></content>
   </entry>
   
